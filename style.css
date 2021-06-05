@@ -1,0 +1,98 @@
+body{
+    background-image: url(imgs/background.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+/* header inicio */
+.header1{
+    background:#080e33;
+    padding: 5px;
+    justify-content: space-between;
+    text-align: center;
+}
+.header1 img{
+    height: 90px;
+}
+.header2{   
+    background: white;
+    justify-content: center;
+    border-top: 2px groove #efefef;
+    border-bottom: 2px groove #efefef   ;
+
+}
+.header-nav a{
+    background: white;
+    border-radius: 0px !important;
+    color:#232323;
+    padding:10px 10px;
+}
+.header-nav .active{
+    background: #f6f6f7!important;
+    color:#232323 !important;
+}
+.header-nav a:hover{
+    background: #f7f6f6;
+}
+/* header fim */
+
+/* main inicio */
+.main{
+    margin: 250px auto;
+    justify-content: center;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+.main h1,p{
+    margin: 0 auto;
+    padding: 10px;
+}
+.video{
+    margin: 0 auto;
+    padding: 0px;
+    border-top: 2px groove #efefef;
+    padding-top:20px
+}
+.video1{
+    padding: 10px;
+}
+.video1 iframe{
+    width: 100%;
+}
+.video2{
+    padding: 10px;
+}
+.video2 iframe{
+    width: 100%;
+}
+.game{
+    justify-content: center;
+    padding-bottom: 20px;
+}
+/* main fim */
+
+/* footer inicio */
+footer{
+    background:#080e33 ;
+    padding: 10px;
+    border-top: 3px groove #efefef;
+    color:white;
+}
+/* footer fim */
+
+
+
+/* media queries */
+
+@media screen and ( max-width:768px) {
+    .video1{
+        padding:0px;
+    }
+    .video2{
+        padding:0px;
+    }
+    .menu-nav{
+        text-align: center;
+    }
+}
+
