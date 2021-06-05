@@ -27,11 +27,11 @@ body{
     padding:10px 10px;
 }
 .header-nav .active{
-    background: #f7f6f6!important;
+    background: #e3e1fc!important;
     color:#232323 !important;
 }
 .header-nav a:hover{
-    background: #f7f6f6;
+    background: #e3e1fc;
 }
 .menu-nav{
     text-align: center;
@@ -109,7 +109,8 @@ footer{
     background:#080e33 ;
     margin-top: 20px;
     padding: 10px;
-    color:#232323;
+    border-top:2px groove #efefef;
+    color:white;
 }
 /* footer fim */
 
